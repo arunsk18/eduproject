@@ -12,7 +12,7 @@ public class NewTest {
   public void verifyEduProject() {
 	  System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://35.240.210.5:9094/");
+		driver.get("http://35.198.247.194:9094/");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.findElement(By.id("About Us")).click();
